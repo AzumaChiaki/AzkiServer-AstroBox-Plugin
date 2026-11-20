@@ -1,0 +1,19 @@
+{
+  "name": "Azki Server",
+  "icon": "icon.png",
+  "version": "0.0.1(beta)",
+  "description": "Azki 系列 · 激活并安装 Azki 资源（表盘与快应用）。支持兑换码或爱发电订单号激活，可直接安装本机已授权的资源，输入开发者证书可开启开发人员选项。",
+  "author": "AzumaChiaki",
+  "website": "https://github.com/AzumaChiaki/AzkiServer-AstroBox-Plugin",
+  "entry": "azvf_astro_plugin.wasm",
+  "wasi_version": 3,
+  "api_level": 4,
+  "permissions": [
+    "device",
+    "request",
+    "queue",
+    "account.profile",
+    "os.device-id"
+  ],
+  "additional_files": []
+}
